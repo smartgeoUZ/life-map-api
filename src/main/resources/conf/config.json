@@ -1,0 +1,23 @@
+{
+  "server.port": 8083,
+  "server.host": "192.168.1.13",
+  "socket.timeout": 30000,
+  "enable.http.compression": true,
+  "vertx.development.mode": true,
+  "db": {
+    "url": "jdbc:postgresql://YOUR_DB_URL(192.168.1.4:5432/life_map)",
+    "port": 5432,
+    "username": "lifemap",
+    "password": "lifemapPass",
+    "database": "life_map",
+    "charset": "UTF-8",
+    "queryTimeout": 10000,
+    "driver": "org.postgresql.Driver",
+    "maxPoolSize": 30,
+    "datasource": "pgDataSource"
+  },
+  "default.contract_id": 0,
+  "default.user_id": 0,
+  "bot.api.port": 8779,
+  "bot.api.host": "192.168.1.13"
+}
